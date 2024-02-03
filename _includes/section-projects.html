@@ -2,7 +2,7 @@
   <h1 class="title"><span>{{site.projects_title}}</span></h1>
   <div class="projects-wrapper">
     {% for project in site.data.projects %}
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
+      <div class="project Shevanio-card" data-aos="zoom-in-down">
         <div class="name-link-wrapper">
           <h3>{{project.name}}</h3>
         </div>
@@ -15,7 +15,7 @@
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}
-              <span class="tag neumorphism-card">{{tag.tag}}</span>
+              <span class="tag Shevanio-card">{{tag.tag}}</span>
             {% endfor %}
           </div>
         {% endif %}
@@ -45,7 +45,7 @@
   <div class="projects-wrapper">
     {% for repository in filtered_repos %}
       {% unless site.projects.exclude.projects contains repository.name %}
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="project Shevanio-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
             <h3>{{ repository.name }}</h3>
             <div class="links">
@@ -80,7 +80,7 @@
           {% if repository.topics %}
             <div class="tag-wrapper">
               {% for topic in repository.topics %}
-                <span class="tag neumorphism-card">{{topic}}</span>
+                <span class="tag Shevanio-card">{{topic}}</span>
               {% endfor %}
             </div>
           {% endif %}

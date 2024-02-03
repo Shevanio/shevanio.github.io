@@ -56,21 +56,37 @@
         </a>
       {% endif %}
 
-      {% if site.dev_username != null %}
-        <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
-          href="https://dev.to/{{site.dev_username}}"
+      {% if site.htb_username != null %}
+        <a class="social-link" aria-label="My HackTheBox" target="_blank" rel="noreferrer"
+          href="https://app.hackthebox.com/users/1825939"
         >
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>
           <div class="social">
             <svg class="social-svg" viewBox="0 0 48 48">
-              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#dev" | prepend: site.baseurl }}"></use>
+              <use x="0" y="0" width="48" height="48" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#hackthebox" | prepend: site.baseurl }}"></use>
             </svg>
           </div>
-          <span class="label">DEV</span>
+          <span class="label">HackTheBox</span>
         </a>
       {% endif %}
+
+      {% if site.thm_username != null %}
+      <a class="social-link" aria-label="My TryHackMe" target="_blank" rel="noreferrer"
+        href="https://tryhackme.com/p/shevanio"
+      >
+        <svg viewBox="0 0 200 200" class="circle">
+          <circle cx="100" cy="100" r="80" />
+        </svg>
+        <div class="social">
+          <svg class="social-svg" viewBox="0 0 48 48">
+            <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="{{ "/assets/img/brands.svg#tryhackme" | prepend: site.baseurl }}"></use>
+          </svg>
+        </div>
+        <span class="label">TryHackMe</span>
+      </a>
+    {% endif %}
 
       {% if site.linkedin_username != null %}
         <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"

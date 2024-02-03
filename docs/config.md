@@ -35,7 +35,7 @@
   * You can add and style website links with this HTML template inside every **section_description**, e.g. checkout the current `about_me_description`:
 
   ```html
-  <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>
+  <a class="highlight-link" href="https://github.com/longpdo/Shevanio" target="_blank" rel="noreferrer"> Github </a>
   ```
 
 ## Skills Section
