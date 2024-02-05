@@ -3,10 +3,10 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # Ajusta esto a tu rama por defecto
+      - master # Ajusta esto a tu rama por defecto
   pull_request:
     branches:
-      - main  # Ajusta esto a tu rama por defecto
+      - master # Ajusta esto a tu rama por defecto
 
 jobs:
   build:
