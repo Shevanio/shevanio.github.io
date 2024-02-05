@@ -7,7 +7,7 @@ title: Shevanio
 description: Personal website powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
-baseurl: "/Shevanio"
+baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
@@ -34,7 +34,7 @@ twitter_username: Shevanio1950
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Measdasd
+about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from Barcelona, Spain.\n
 \n
