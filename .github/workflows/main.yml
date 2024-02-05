@@ -37,6 +37,6 @@ jobs:
       run: npm install
     
     - name: Run Gulp tasks
-      run: npx gulp build  # Asegúrate de usar el comando correcto para tus tareas de Gulp
+      run: npx gulp serve  # Asegúrate de usar el comando correcto para tus tareas de Gulp
 
     # Add additional steps for deployment if necessary
