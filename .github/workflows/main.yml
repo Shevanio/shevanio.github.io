@@ -3,10 +3,10 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - master  # Ajusta esto a tu rama por defecto
+      - main  # Ajusta esto a tu rama por defecto
   pull_request:
     branches:
-      - master  # Ajusta esto a tu rama por defecto
+      - main  # Ajusta esto a tu rama por defecto
 
 jobs:
   build:
@@ -14,15 +14,27 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'  # Asegúrate de que esta versión coincide con la que utilizas localmente
-
-    - name: Setup Bundler
+        ruby-version: '3.0'  # Asegúrate de que esta versión coincide con la que utilizas localmente
+    
+    - name: Install dependencies (Bundler)
       run: |
-        gem install bundler -v '2.3.14'
-        bundle _2.3.14_ install
-      
-      
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+    
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # Usa la versión de Node.js que tu proyecto requiere
+    
+    - name: Install dependencies (npm)
+      run: npm install
+    
+    - name: Run Gulp tasks
+      run: npx gulp build  # Asegúrate de usar el comando correcto para tus tareas de Gulp
+    
+    # Add additional steps for deployment if necessary
+
