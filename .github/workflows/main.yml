@@ -19,7 +19,10 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: '3.0'  # Asegúrate de que esta versión coincide con la que utilizas localmente
-    
+
+    - name: Install Bundler
+      run: gem install bundler -v '2.3.14'
+
     - name: Install dependencies (Bundler)
       run: |
         bundle config path vendor/bundle
@@ -35,11 +38,5 @@ jobs:
     
     - name: Run Gulp tasks
       run: npx gulp build  # Asegúrate de usar el comando correcto para tus tareas de Gulp
-    
-    - name: Install Bundler
-      run: gem install bundler -v '2.3.14'
 
-    - name: Install dependencies
-      run: bundle install
     # Add additional steps for deployment if necessary
-
