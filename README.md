@@ -6,13 +6,13 @@
 * Featured on [Jekyll Themes](https://jekyll-themes.com/Shevanio/)
 * Featured on [jekyllthemes](http://jekyllthemes.org/themes/Shevanio/)
 
-[![Open Issues](https://badgen.net/github/open-issues/longpdo/Shevanio)](https://github.com/longpdo/Shevanio/issues)
-[![License](https://badgen.net/github/license/longpdo/Shevanio)](LICENSE)
+[![Open Issues](https://badgen.net/github/open-issues/shevanio/Shevanio)](https://github.com/shevanio/Shevanio/issues)
+[![License](https://badgen.net/github/license/shevanio/Shevanio)](LICENSE)
 <a href="https://jekyll-themes.com">
     <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
 
-[View Demo](https://longpdo.github.io/Shevanio/) · [Report Bug](https://github.com/longpdo/Shevanio/issues) · [Request Feature](https://github.com/longpdo/Shevanio/issues)
+[View Demo](https://shevanio.github.io/Shevanio/) · [Report Bug](https://github.com/shevanio/Shevanio/issues) · [Request Feature](https://github.com/shevanio/Shevanio/issues)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents <!-- omit in toc -->
@@ -37,7 +37,7 @@
 
 ## About The Project
 
-[![Project Screenshot][product-screenshot]](https://longpdo.github.io/Shevanio/)
+[![Project Screenshot][product-screenshot]](https://shevanio.github.io/Shevanio/)
 
 This is a personal website built with `Jekyll` and hosted on `Github Pages`, which is based on the new `Shevanio` design trend and was developed with a mobile-first approach. This can be used by developers, who want to showcase their resume and portfolio. If you want to use this for your own website, fork this repository and then refer to [personalize and customize](#personalize-and-customize).
 
@@ -138,7 +138,7 @@ gulp
 
 #### _config.yml
 
-Edit `_config.yml` to personalize your site. For documentation, refer to [docs/config.md](https://github.com/longpdo/Shevanio/blob/master/docs/config.md).
+Edit `_config.yml` to personalize your site. For documentation, refer to [docs/config.md](https://github.com/shevanio/Shevanio/blob/master/docs/config.md).
 
 #### Github Metadata Plugin
 
@@ -168,7 +168,7 @@ Example:
 
 #### _data/*.yml
 
-Edit files inside `_data` to add information to the portfolio. For documentation, refer to [docs/data.md](https://github.com/longpdo/Shevanio/blob/master/docs/data.md).
+Edit files inside `_data` to add information to the portfolio. For documentation, refer to [docs/data.md](https://github.com/shevanio/Shevanio/blob/master/docs/data.md).
 
 #### Particles.js
 
@@ -206,5 +206,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[product-screenshot]: https://raw.githubusercontent.com/longpdo/Shevanio/master/docs/screenshot.gif
-[github-repo-info]: https://raw.githubusercontent.com/longpdo/Shevanio/master/docs/github-repo-info.png
+[product-screenshot]: https://raw.githubusercontent.com/shevanio/Shevanio/master/docs/screenshot.gif
+[github-repo-info]: https://raw.githubusercontent.com/shevanio/Shevanio/master/docs/github-repo-info.png

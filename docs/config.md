@@ -19,10 +19,10 @@
   * Usernames or ids can usually be taken from your profile links
   * If you do not use one of the following websites, then leave it empty
   * e.g. since I don't blog on dev.to or have Twitter my configs are like this:
-    * `github_username`: **longpdo**
-    * `codepen_username`: **longpdo**
+    * `github_username`: **shevanio**
+    * `codepen_username`: **shevanio**
     * `dev_username`:
-    * `linkedin_username`: **longpdo**
+    * `linkedin_username`: **shevanio**
     * `twitter_username`:
 
 ## About Me Section
@@ -35,7 +35,7 @@
   * You can add and style website links with this HTML template inside every **section_description**, e.g. checkout the current `about_me_description`:
 
   ```html
-  <a class="highlight-link" href="https://github.com/longpdo/Shevanio" target="_blank" rel="noreferrer"> Github </a>
+  <a class="highlight-link" href="https://github.com/shevanio/Shevanio" target="_blank" rel="noreferrer"> Github </a>
   ```
 
 ## Skills Section

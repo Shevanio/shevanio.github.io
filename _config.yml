@@ -14,7 +14,7 @@ baseurl: "/Shevanio"
 username: Shevanio
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: If you want, of course.
 # email: Your E-Mail address for the email button.
 email: shevanio1950@gmail.com
 # For every social button you want to display, set your username or userid
@@ -34,9 +34,23 @@ twitter_username: Shevanio1950
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Me
+about_me_title: About Measdasd
 # about_me_description: This will be displayed under the title.
-about_me_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/Shevanio" target="_blank" rel="noreferrer"> Github </a>. You can also find me on <a class="highlight-link" href="https://jamstackthemes.dev/theme/jekyll-Shevanio/" target="_blank" rel="noreferrer">JAMstack Themes</a> and on <a class="highlight-link" href="https://jekyll-themes.com/Shevanio/" target="_blank" rel="noreferrer">Jekyll Themes</a>.
+about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from Barcelona, Spain.
+
+👨‍💻 I'm a monitoring technician and systems administrator.
+
+💻 I want to dedicate myself full-time to cybersecurity, performing pentester tasks.
+
+👥 I have experience in creating and maintaining professional solutions.
+
+🤖 I automate repetitive processes on my computer and work via bash or python scripting.
+
+📈 I'm interested in the topic of cryptocurrencies and web3.
+
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  GOALS  ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+⭐ OSCP / OSWP / eJPT / eCPPTv2 / eWPTXv2 / CPHE / CHEE ⭐
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐"
 
 # SKILLS SECTION
 # show_skills_card:
@@ -83,7 +97,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/Shevanio" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: asdasdasdasdadasd
 
 # GITHUB-METADATA
 # Set this to your forked repository

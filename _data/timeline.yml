@@ -17,45 +17,78 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Monitoring & System Administrator
+  title-url: https://www.abast.es
+  date: January 2022 - Present
+  subtitle: Monitoring & System Administrator for an important bank
   tags:
+    - tag: Python
+    - tag: Selenium
+    - tag: Alyvix
+    - tag: Q-Server
+    - tag: Jenkins
+    - tag: MariaDB
+    - tag: Grafana
+    - tag: InfluxDB
+    - tag: Kibana
+    - tag: ElasticSearch
+    - tag: Sensu-Go
     - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
-  timeline-side: left
-
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
-  tags:
-    - tag: React
+    - tag: Git
+    - tag: Java
     - tag: Node
-    - tag: Javascript
+  timeline-side: left
+
+- title: Monitoring Administrator
+  title-url: https://www.es.logicalis.com/es
+  date: June 2020 - August 2021
+  subtitle: Monitoring technician for bank Bankia & La Caixa / IT Now 
+  tags:
+    - tag: Nagios
+    - tag: Zabbix
+    - tag: Ansible
+    - tag: Docker
+    - tag: Bash
+    - tag: Python
+    - tag: ElasticSearch
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+
+- title: System Administrator
+  title-url: https://www.eurona.es
+  date: April 2018 - June 2020
+  subtitle: Junior System Administrator
+  tags:
+    - tag: Bash
+    - tag: Python
+    - tag: Centreon
+    - tag: Nagios
+    - tag: Nginx
+    - tag: Apache
+    - tag: HP
+    - tag: ElasticSearch
+    - tag: Cacti
+    - tag: GitHub
+    - tag: Bitbucket
+    - tag: Ansible
+    - tag: Zabbix
   timeline-side: left
+
+
+- title: Network administrator
+  title-url: https://www.eurona.es
+  date: May 2017 - April 2018
+  subtitle: Junior Network administrator
+  tags:
+    - tag: Cisco
+    - tag: Uquiti
+    - tag: Meraki
+    - tag: Unify
+    - tag: Huaweii
+    - tag: Ruckus
+    - tag: Aruba
+    - tag: Acces Point
+    - tag: Switch
+    - tag: Router
+    - tag: Firewall
+  timeline-side: right

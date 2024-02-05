@@ -279,6 +279,7 @@ a {
 
     .label {
       display: none;
+      transition: display 0.3s ease;
     }
 
     &:hover {

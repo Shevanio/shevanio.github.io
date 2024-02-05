@@ -8,29 +8,50 @@
 - name: Git
   weight: 5
 
-- name: Bash
-  weight: 3
+# - name: Scrum
+#   weight: 3
 
-- name: Scrum
-  weight: 3
-
-- name: Travis CI
-  weight: 1
+# - name: Travis CI
+#   weight: 1
 
 - name: Jenkins
-  weight: 1
+  weight: 4
 
-- name: Chrome DevTools
+- name: Q-Server
+  weight: 3
+
+- name: Selenium
+  weight: 5
+
+- name: Alyvix
+  weight: 5
+
+- name: Grafana
+  weight: 4
+
+- name: Influx
+  weight: 3
+
+- name: Kibana
   weight: 2
+
+- name: Sensu-Go
+  weight: 3
+
+- name: MariaDB
+  weight: 2
+  
+# - name: Chrome DevTools
+#   weight: 2
 
 - name: npm
   weight: 2
 
 - name: gulp
-  weight: 4
+  weight: 1
 
 - name: VS Code
-  weight: 3
+  weight: 5
 
-- name: Postman
-  weight: 4
+# - name: Postman
+#   weight: 5
