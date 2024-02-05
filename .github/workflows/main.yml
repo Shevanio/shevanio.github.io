@@ -20,4 +20,9 @@ jobs:
       with:
         ruby-version: '2.7'  # Asegúrate de que esta versión coincide con la que utilizas localmente
 
-    # Resto de tus pasos...
+    - name: Setup Bundler
+      run: |
+        gem install bundler -v '2.3.14'
+        bundle _2.3.14_ install
+      
+      
