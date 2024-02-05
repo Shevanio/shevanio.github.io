@@ -36,21 +36,21 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Measdasd
 # about_me_description: This will be displayed under the title.
-about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from Barcelona, Spain.
-
-👨‍💻 I'm a monitoring technician and systems administrator.
-
-💻 I want to dedicate myself full-time to cybersecurity, performing pentester tasks.
-
-👥 I have experience in creating and maintaining professional solutions.
-
-🤖 I automate repetitive processes on my computer and work via bash or python scripting.
-
-📈 I'm interested in the topic of cryptocurrencies and web3.
-
-⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  GOALS  ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
-⭐ OSCP / OSWP / eJPT / eCPPTv2 / eWPTXv2 / CPHE / CHEE ⭐
-⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐"
+about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from Barcelona, Spain.\n
+\n
+👨‍💻 I'm a monitoring technician and systems administrator.\n
+\n
+💻 I want to dedicate myself full-time to cybersecurity, performing pentester tasks.\n
+\n
+👥 I have experience in creating and maintaining professional solutions.\n
+\n
+🤖 I automate repetitive processes on my computer and work via bash or python scripting.\n
+\n
+📈 I'm interested in the topic of cryptocurrencies and web3.\n
+\n
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  GOALS  ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐\n
+⭐ OSCP / OSWP / eJPT / eCPPTv2 / eWPTXv2 / CPHE / CHEE ⭐\n
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐\n"
 
 # SKILLS SECTION
 # show_skills_card:
