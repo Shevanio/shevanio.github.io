@@ -1,15 +1,15 @@
-<h1 class="title">{{site.timeline_title}}</h1>
+<h1 class="title">{{site.timeline_title_work}}</h1>
 <p class="subtitle">
   For more information, have a look at my
-  <a class="highlight-link" href="{{site.cv_download_link}}" target="_blank" rel="noreferrer">
+  <a class="highlight-link" href="{{site.cv_download_link_work}}" target="_blank" rel="noreferrer">
     curriculum vitae
   </a>.
 </p>
 
 <div class="timeline-wrapper">
   <ul class="timeline">
-    {% for event in site.data.timeline %}
-      {% if event.timeline-side == 'left' %}
+    {% for event in site.data.timeline_work %}
+      {% if event.timeline_work-side == 'left' %}
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
@@ -37,7 +37,7 @@
         </li>
       {% endif %}
 
-      {% if event.timeline-side == 'right' %}
+      {% if event.timeline_work-side == 'right' %}
         <li>
           <div class="direction-r">
             <div class="flag-wrapper">

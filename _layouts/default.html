@@ -42,9 +42,14 @@
         {% include section-skills.html %}
       </section>
     {% endif %}
-    {%if site.show_timeline_card %}
+    {%if site.show_timeline_card_work %}
       <section class="card Shevanio-card-big">
-        {% include section-timeline.html %}
+        {% include section-timeline_work.html %}
+      </section>
+    {% endif %}
+    {%if site.show_timeline_card_education %}
+      <section class="card Shevanio-card-big">
+        {% include section-timeline_education.html %}
       </section>
     {% endif %}
     {%if site.show_projects_card %}

@@ -45,13 +45,22 @@
   * setting this to **false**, will omit the Skills section
 * `about_me_title`: The will be displayed as the title in the Skills section
 
-## Timeline Section
+## Timeline Work Section
 
-* `show_timeline_card`:
+* `show_timeline_card_work`:
   * setting this to **true**, will display the Timeline section
   * setting this to **false**, will omit the Timeline section
-* `timeline_title`: The will be displayed as the title in the Timeline section
-* `cv_download_link`: The link where you host your cv.
+* `timeline_title_work`: The will be displayed as the title in the Timeline section
+* `cv_download_link_work`: The link where you host your cv.
+
+## Timeline Education Section
+
+* `show_timeline_card_education`:
+  * setting this to **true**, will display the Timeline section
+  * setting this to **false**, will omit the Timeline section
+* `timeline_title_education`: The will be displayed as the title in the Timeline section
+* `cv_download_link_education`: The link where you host your cv.
+
 
 ## Projects Section
 

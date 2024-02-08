@@ -3,7 +3,7 @@
 # > date: Time span
 # > subtitle: The description under the title
 # > tags: List of tags you want to associate with the entry
-# > timeline-side: The side on which you want to display the entry: left or right
+# > timeline_work-side: The side on which you want to display the entry: left or right
 
 # Example of a timeline entry
 # - title: airbnb
@@ -15,7 +15,7 @@
 #     - tag: Javascript
 #     - tag: Ruby
 #     - tag: Rails
-#   timeline-side: right
+#   timeline_work-side: right
 
 - title: Monitoring & System Administrator
   title-url: https://www.abast.es
@@ -37,7 +37,7 @@
     - tag: Git
     - tag: Java
     - tag: Node
-  timeline-side: left
+  timeline_work-side: left
 
 - title: Monitoring Administrator
   title-url: https://www.es.logicalis.com/es
@@ -51,7 +51,7 @@
     - tag: Bash
     - tag: Python
     - tag: ElasticSearch
-  timeline-side: right
+  timeline_work-side: right
 
 
 - title: System Administrator
@@ -72,7 +72,7 @@
     - tag: Bitbucket
     - tag: Ansible
     - tag: Zabbix
-  timeline-side: left
+  timeline_work-side: left
 
 
 - title: Network administrator
@@ -91,4 +91,4 @@
     - tag: Switch
     - tag: Router
     - tag: Firewall
-  timeline-side: right
+  timeline_work-side: right

@@ -1,0 +1,49 @@
+# > title: Name of your timeline entry, university or work place
+# > title-url: Link to your timeline entry, university or work place
+# > date: Time span
+# > subtitle: The description under the title
+# > tags: List of tags you want to associate with the entry
+# > timeline_education-side: The side on which you want to display the entry: left or right
+
+# Example of a timeline entry
+# - title: airbnb
+#   title-url: https://example.com/
+#   date: Sep 2019 - Present
+#   subtitle: Fullstack Developer
+#   tags:
+#     - tag: React
+#     - tag: Javascript
+#     - tag: Ruby
+#     - tag: Rails
+#   timeline_education-side: right
+- title: Linux
+  title-url: https://drive.google.com/file/d/1W9das1YjsVNqoZ_ig4OjudAv6BkhTC1U/view?usp=drive_link
+  date: 24/06/2023
+  subtitle: Environment customization in Linux
+  timeline_education-side: right
+
+- title: Elastic Search
+  title-url: https://drive.google.com/file/d/150YraOtMURf7-HyTNxPfhHv3Go9--tW0/view?usp=drive_link
+  date: 06/02/2021
+  subtitle: Analyzing Windows Host Data
+  timeline_education-side: left
+
+- title: Master Ciberseguridad
+  title-url: https://www.ucjc.edu
+  date: 2019 - 2020
+  subtitle: Universidad Camilo José Cela
+  timeline_education-side: right
+
+
+- title: Higher Technical Vocational Training in Computer Systems Administration.
+  title-url: https://cicles.palcam.cat/?lang=es
+  date:  2016 - 2018
+  subtitle: Cicles Palcam
+  timeline_education-side: left
+
+
+- title: Technical Vocational Training in Microcomputer Systems and Networks.
+  title-url: https://cicles.palcam.cat/?lang=es
+  date: 2014 - 2016
+  subtitle: Cicles Palcam
+  timeline_education-side: right

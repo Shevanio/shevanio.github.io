@@ -49,7 +49,7 @@ about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from
 📈 I'm interested in the topic of cryptocurrencies and web3. 
 <br>
 <br>
-⭐⭐⭐ GOALS ⭐⭐⭐<br>
+⭐ GOALS ⭐<br>
 OSCP / OSWP / eJPT / eCPPTv2 / eWPTXv2 / CPHE / CHEE <br>"
 
 # SKILLS SECTION
@@ -60,16 +60,29 @@ show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 
-# TIMELINE SECTION
+# TIMELINE Work SECTION
 # show_timeline_card:
 # > setting this to true, will display the Timeline section
 # > setting this to false, will omit the Timeline section
-show_timeline_card: true
+show_timeline_card_work: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
+timeline_title_work: Work Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link_work: https://example.com/
+
+# TIMELINE Education SECTION
+# show_timeline_card:
+# > setting this to true, will display the Timeline section
+# > setting this to false, will omit the Timeline section
+show_timeline_card_education: true
+# timeline_title: The will be displayed as the title in the Timeline section
+timeline_title_education: Education & Certificates
+# cv_download_link: The link where you host your cv.
+# > e.g. you share your cv on your dropbox, then add the dropbox link here
+cv_download_link_education: https://example.com/
+
+
 
 # PROJECTS SECTION
 # show_projects_card:
