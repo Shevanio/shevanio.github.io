@@ -41,6 +41,7 @@
 - name: MariaDB
   weight: 2
   
+- tag: SQL
 # - name: Chrome DevTools
 #   weight: 2
 

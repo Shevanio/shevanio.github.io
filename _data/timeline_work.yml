@@ -37,6 +37,7 @@
     - tag: Git
     - tag: Java
     - tag: Node
+    - tag: SQL
   timeline_work-side: left
 
 - title: Monitoring Administrator
@@ -51,6 +52,7 @@
     - tag: Bash
     - tag: Python
     - tag: ElasticSearch
+    - tag: SQL
   timeline_work-side: right
 
 
@@ -71,6 +73,7 @@
     - tag: GitHub
     - tag: Bitbucket
     - tag: Ansible
+    - tag: SQL
     - tag: Zabbix
   timeline_work-side: left
 
