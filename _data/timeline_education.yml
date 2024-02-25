@@ -16,20 +16,26 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline_education-side: right
-- title: Linux
-  title-url: https://drive.google.com/file/d/16_yrw6MD70l5eIJ0-ZVLTm5mImcc0i-w/view?usp=drive_link
+  - title: Linux
+  title-url: https://drive.google.com/file/d/1NoPgIoX9sGlKScaCDxK1MhmZq1jDFvbr/view?usp=drive_link
+  date: 25/02/2024
+  subtitle: Introduction to Linux
+  timeline_education-side: right
+  
+  - title: Linux
+  title-url: https://drive.google.com/file/d/1PU1LIFepDVN7d4SzWGxzPsGvfA8Eqq2a/view?usp=drive_link
   date: 24/06/2023
   subtitle: Environment customization in Linux
   timeline_education-side: left
 
 - title: Linux
-  title-url: https://drive.google.com/file/d/1g0roZxSiFPMgupLWVqf-YKuvX5hSIuVn/view?usp=drive_link
+  title-url: https://drive.google.com/file/d/1gMehnAqiYLg_lmK-xTWHY-GWc6Ac-KiP/view?usp=drive_link
   date: 26/03/2021
   subtitle: Bash/Scripting Linux Advanced
   timeline_education-side: right
 
 - title: Elastic Search
-  title-url: https://drive.google.com/file/d/123L2UixjF8jXckyuxTLc0I1Da5heB3aW/view?usp=drive_link
+  title-url: https://drive.google.com/file/d/1PU1LIFepDVN7d4SzWGxzPsGvfA8Eqq2a/view?usp=drive_link
   date: 06/02/2021
   subtitle: Analyzing Windows Host Data
   timeline_education-side: left
