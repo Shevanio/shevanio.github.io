@@ -5,11 +5,11 @@
 # - name: Framework
 #   weight: 5
 
- - name: Angular
-   weight: 2
+#  - name: Angular
+#    weight: 2
 
- - name: AngularJS
-   weight: 2
+#  - name: AngularJS
+#    weight: 2
 
  - name: React
    weight: 3
