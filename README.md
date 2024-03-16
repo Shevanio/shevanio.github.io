@@ -1,4 +1,4 @@
-# Shevanio <!-- omit in toc -->
+## Shevanio <!-- omit in toc -->
 
 > Shevanio designed Jekyll theme for personal websites, portfolios and resumes.
 
