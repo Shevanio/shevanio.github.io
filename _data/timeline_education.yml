@@ -16,13 +16,13 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline_education-side: right
-  - title: Linux
+- title: Linux
   title-url: https://drive.google.com/file/d/1NoPgIoX9sGlKScaCDxK1MhmZq1jDFvbr/view?usp=drive_link
   date: 25/02/2024
   subtitle: Introduction to Linux
   timeline_education-side: right
   
-  - title: Linux
+- title: Linux
   title-url: https://drive.google.com/file/d/1PU1LIFepDVN7d4SzWGxzPsGvfA8Eqq2a/view?usp=drive_link
   date: 24/06/2023
   subtitle: Environment customization in Linux
