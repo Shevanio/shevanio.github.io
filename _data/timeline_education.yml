@@ -16,12 +16,24 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline_education-side: right
+- title: Hacking
+  title-url: https://drive.google.com/file/d/1KEWtS7Jx5oL_vge10KMh0_Sf8lVx1C9s/view?usp=drive_link
+  date: 16/07/2024
+  subtitle: Introduction to hacking course
+  timeline_education-side: right
+
+  - title: React
+  title-url: https://drive.google.com/file/d/1o52Xrj0LRQxortknEVD99yFZF9HEFVdR/view?usp=drive_link
+  date: 24/06/2024
+  subtitle: Modern React with Redux
+  timeline_education-side: left
+
 - title: Linux
   title-url: https://drive.google.com/file/d/1NoPgIoX9sGlKScaCDxK1MhmZq1jDFvbr/view?usp=drive_link
   date: 25/02/2024
   subtitle: Introduction to Linux
   timeline_education-side: right
-  
+
 - title: Linux
   title-url: https://drive.google.com/file/d/1PU1LIFepDVN7d4SzWGxzPsGvfA8Eqq2a/view?usp=drive_link
   date: 24/06/2023
