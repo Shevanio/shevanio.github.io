@@ -22,7 +22,7 @@
   subtitle: Introduction to hacking course
   timeline_education-side: right
 
-  - title: React
+- title: React
   title-url: https://drive.google.com/file/d/1o52Xrj0LRQxortknEVD99yFZF9HEFVdR/view?usp=drive_link
   date: 24/06/2024
   subtitle: Modern React with Redux
@@ -58,13 +58,11 @@
   subtitle: Universidad Camilo José Cela
   timeline_education-side: right
 
-
 - title: Higher Technical Vocational Training in Computer Systems Administration.
   title-url: https://cicles.palcam.cat/?lang=es
   date:  2016 - 2018
   subtitle: Cicles Palcam
   timeline_education-side: left
-
 
 - title: Technical Vocational Training in Microcomputer Systems and Networks.
   title-url: https://cicles.palcam.cat/?lang=es
