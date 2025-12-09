@@ -1,24 +1,8 @@
-# > name: Name of your Dev Tool
-# > weight: Describes how good you know the tool - values from 1 up to 5
-#
-# Example of a Dev Tool
-# - name: Git
-#   weight: 5
-
 - name: Git
   weight: 5
 
-# - name: Scrum
-#   weight: 3
-
-# - name: Travis CI
-#   weight: 1
-
 - name: Jenkins
   weight: 4
-
-- name: Q-Server
-  weight: 3
 
 - name: Selenium
   weight: 5
@@ -27,33 +11,36 @@
   weight: 5
 
 - name: Grafana
-  weight: 4
+  weight: 5
 
 - name: Influx
-  weight: 3
+  weight: 4
+
+- name: Prometheus
+  weight: 4
+
+- name: Victoria Metrics
+  weight: 4
 
 - name: Kibana
   weight: 2
 
 - name: Sensu-Go
-  weight: 3
+  weight: 4
 
 - name: MariaDB
-  weight: 2
+  weight: 3
 
 - name: SQL
-  weight: 2
+  weight: 3
 # - name: Chrome DevTools
 #   weight: 2
 
-- name: npm
-  weight: 2
-
-- name: gulp
-  weight: 1
-
 - name: VS Code
   weight: 5
+
+- name: Kubernetes
+  weight: 4
 
 # - name: Postman
 #   weight: 5

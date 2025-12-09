@@ -25,11 +25,11 @@
     - tag: Python
     - tag: Selenium
     - tag: Alyvix
-    - tag: Q-Server
     - tag: Jenkins
     - tag: MariaDB
     - tag: Grafana
     - tag: InfluxDB
+    - tag: Victoria Metrics
     - tag: Kibana
     - tag: ElasticSearch
     - tag: Sensu-Go
@@ -38,6 +38,8 @@
     - tag: Java
     - tag: Node
     - tag: SQL
+    - tag: Docker / Postman
+    - tag: Kubernetes
   timeline_work-side: left
 
 - title: Monitoring Administrator
