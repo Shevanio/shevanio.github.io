@@ -13,14 +13,14 @@ var cp = require('child_process');
  */
 function styles() {
   return gulp
-    .src([ '_sass/*.scss' ])
+    .src(['_sass/*.scss'])
     .pipe(
       sass({
-        includePaths: [ 'scss' ],
+        includePaths: ['scss'],
         onError: browserSync.notify
       })
     )
-    .pipe(prefix([ 'last 3 versions', '> 1%', 'ie 8' ], { cascade: true }))
+    .pipe(prefix(['last 3 versions', '> 1%']))
     .pipe(rename('main.min.css'))
     .pipe(cssnano())
     .pipe(gulp.dest('_site/assets/css/'))
@@ -30,7 +30,7 @@ function styles() {
 
 function stylesVendors() {
   return gulp
-    .src([ '_sass/vendors/*.css' ])
+    .src(['_sass/vendors/*.css'])
     .pipe(concat('vendors.min.css'))
     .pipe(cssnano())
     .pipe(gulp.dest('_site/assets/css/'))
@@ -42,7 +42,7 @@ function stylesVendors() {
  */
 function scripts() {
   return gulp
-    .src([ '_js/app.js' ])
+    .src(['_js/app.js'])
     .pipe(rename('app.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('_site/assets/js'))
@@ -52,7 +52,7 @@ function scripts() {
 
 function scriptsVendors() {
   return gulp
-    .src([ '_js/vendors/*.js' ])
+    .src(['_js/vendors/*.js'])
     .pipe(concat('vendors.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('_site/assets/js'))
@@ -97,33 +97,43 @@ function jekyll(done) {
 }
 
 /**
+ * Build Jekyll site for production
+ */
+function jekyllProd(done) {
+  return cp
+    .spawn(
+      'bundle',
+      ['exec', 'jekyll', 'build'],
+      {
+        stdio: 'inherit'
+      }
+    )
+    .on('close', done);
+}
+
+/**
  * Watch source files for changes & recompile
- * Watch html/md files, run Jekyll & reload BrowserSync
  */
 function watchData() {
   gulp.watch(
-    [ '_data/*.yml', '_config.yml', 'assets/*.json' ],
+    ['_data/*.yml', '_config.yml'],
     gulp.series(jekyll, browserSyncReload)
   );
 }
 
 function watchMarkup() {
   gulp.watch(
-    [ 'index.html', '_includes/*.html', '_layouts/*.html' ],
+    ['index.html', '_includes/*.html', '_layouts/*.html'],
     gulp.series(jekyll, browserSyncReload)
   );
 }
 
 function watchScripts() {
-  gulp.watch([ '_js/*.js' ], scripts);
+  gulp.watch(['_js/*.js'], scripts);
 }
 
 function watchStyles() {
-  gulp.watch([ '_sass/*.scss' ], styles);
-}
-
-function watch() {
-  gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
+  gulp.watch(['_sass/*.scss'], styles);
 }
 
 var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
@@ -131,7 +141,16 @@ var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 
 /**
- * Default task, running just `gulp` will compile the sass,
- * compile the Jekyll site, launch BrowserSync & watch files.
+ * Default task - development server with watch
  */
 gulp.task('default', gulp.parallel(serve, watch));
+
+/**
+ * Build task - production build
+ */
+gulp.task('build', gulp.series(compile, jekyllProd));
+
+/**
+ * Compile assets only (no Jekyll)
+ */
+gulp.task('compile', compile);

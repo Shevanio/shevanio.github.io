@@ -44,12 +44,12 @@ about_me_description:  "👋 Hi, my name is David, I'm 26 years old and I'm from
 <br>
 👥 I have experience in creating and maintaining professional solutions.
 <br>
-🤖 I automate repetitive processes on my computer, primarily using bash and Python scripting.
+🤖 I automate repetitive processes on my computer, primarily using bash, Python and GO scripting.
 <br>
 📈 I'm deeply interested in exploring the fields of Machine Learning and Artificial Intelligence further.
 <br>
 <br>
-⭐ GOALS ⭐<br>
+⭐ GOALS for 2026⭐<br>
 PCAP, Dynatrace, eJPTv2, eCPPTv2 and eWPT <br>"
 
 # SKILLS SECTION
@@ -69,7 +69,7 @@ show_timeline_card_work: true
 timeline_title_work: Work Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link_work: https://example.com/
+# cv_download_link_work: https://example.com/
 
 # TIMELINE Education SECTION
 # show_timeline_card:
@@ -80,7 +80,7 @@ show_timeline_card_education: true
 timeline_title_education: Education & Certificates
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link_education: https://example.com/
+# cv_download_link_education: https://example.com/
 
 
 
@@ -154,4 +154,5 @@ exclude:
     "gulpfile.js",
     "node_modules",
     "package.json",
+    "vendor",
   ]

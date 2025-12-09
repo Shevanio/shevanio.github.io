@@ -57,6 +57,29 @@ a {
   &:hover {
     color: $text-color;
   }
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 2px;
+  }
+}
+
+/* Skip to content link for keyboard navigation */
+.skip-to-content {
+  background: $primary-color;
+  color: $text-color;
+  left: 50%;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  top: -100%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transition: top 0.3s ease;
+
+  &:focus {
+    top: 0;
+  }
 }
 
 .highlight-title {
