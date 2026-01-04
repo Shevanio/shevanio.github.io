@@ -16,6 +16,18 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline_education-side: right
+- title: Claude Code in Action
+  title-url: https://verify.skilljar.com/c/ocfbg4y27f5j
+  date: 02/01/2026
+  subtitle: Introduction to hacking course
+  timeline_education-side: right
+
+- title: AI development course
+  title-url: https://drive.google.com/file/d/17OajAiBwOESZMj-fAIpJgQRnkjTRZGZT/view?usp=sharing
+  date: 13/12/2025
+  subtitle: introductory course to AI development
+  timeline_education-side: left
+
 - title: Hacking
   title-url: https://drive.google.com/file/d/1KEWtS7Jx5oL_vge10KMh0_Sf8lVx1C9s/view?usp=drive_link
   date: 16/07/2024
