@@ -38,14 +38,15 @@
     - tag: Java
     - tag: Node
     - tag: SQL
-    - tag: Docker / Postman
+    - tag: Docker
+    - tag: Postman
     - tag: Kubernetes
   timeline_work-side: left
 
 - title: Monitoring Administrator
   title-url: https://www.es.logicalis.com/es
   date: June 2020 - August 2021
-  subtitle: Monitoring technician for bank Bankia & La Caixa / IT Now 
+  subtitle: Monitoring technician for the banks Bankia & La Caixa / IT Now
   tags:
     - tag: Nagios
     - tag: Zabbix
@@ -80,19 +81,19 @@
   timeline_work-side: left
 
 
-- title: Network administrator
+- title: Network Administrator
   title-url: https://www.eurona.es
   date: May 2017 - April 2018
-  subtitle: Junior Network administrator
+  subtitle: Junior Network Administrator
   tags:
     - tag: Cisco
-    - tag: Uquiti
+    - tag: Ubiquiti
     - tag: Meraki
     - tag: Unify
-    - tag: Huaweii
+    - tag: Huawei
     - tag: Ruckus
     - tag: Aruba
-    - tag: Acces Point
+    - tag: Access Point
     - tag: Switch
     - tag: Router
     - tag: Firewall
