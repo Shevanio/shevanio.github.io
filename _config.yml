@@ -4,7 +4,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Shevanio
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: "David (Shevanio) - developer from Barcelona focused on AI and agents, security and hacking, crypto, finance and technology."
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -14,19 +14,18 @@ baseurl: ""
 username: Shevanio
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: If you want, of course.
+typing_text: "Building with AI and agents."
 # email: Your E-Mail address for the email button.
 email: shevanio1950@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: Shevanio
-codepen_username: Shevanio
 #dev_username: Shevanio
 htb_username: Sh3vanio
 thm_username: Shevanio
 linkedin_username: david-luna-camuñez
-twitter_username: Shevanio1950
+twitter_username: shevanio1950
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -36,21 +35,17 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description:  "👋 Hi, my name is David, I'm 28 years old and I'm from Barcelona, Spain. 
+about_me_description: "👋 Hi, I'm David (aka Shevanio), a developer from Barcelona, Spain, with around 10 years of experience in tech.
 <br>
-👨‍💻 I'm a monitoring technician and systems administrator.
+🤖 My main focus today is AI and agents: I build tools, workflows and integrations around LLMs and AI coding agents.
 <br>
-💻 I have a strong passion for cybersecurity, but right now, my main interest lies in Machine Learning and AI.
+🔐 Security and ethical hacking have been a passion of mine for years.
 <br>
-👥 I have experience in creating and maintaining professional solutions.
+📈 I also follow crypto, finance and technology closely, and I post about all of this on <a class=\"highlight-link\" href=\"https://x.com/shevanio1950\" target=\"_blank\" rel=\"noreferrer\">X</a>.
 <br>
-🤖 I automate repetitive processes on my computer, primarily using bash, Python and GO scripting.
+🛠️ My background is in systems administration and monitoring for large banking environments, which taught me to build reliable, observable systems.
 <br>
-📈 I'm deeply interested in exploring the fields of Machine Learning and Artificial Intelligence further.
-<br>
-<br>
-⭐ GOALS for 2026⭐<br>
-PCAP, Dynatrace, eJPTv2, eCPPTv2 and eWPT <br>"
+⚙️ I automate everything I can, mainly with Python, Bash, Go and TypeScript."
 
 # SKILLS SECTION
 # show_skills_card:
@@ -67,9 +62,12 @@ skills_title: Skills
 show_timeline_card_work: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title_work: Work Experience
-# cv_download_link: The link where you host your cv.
-# > e.g. you share your cv on your dropbox, then add the dropbox link here
-# cv_download_link_work: https://example.com/
+# cv_download_link_work: link to your CV (PDF). The "curriculum vitae" link under the
+# section title only appears when this is set.
+# > No CV is published yet. To enable it, add the PDF to the repo, e.g.
+# >   assets/cv/david-luna-cv.pdf
+# > and uncomment the line below pointing to it (or to any public URL):
+# cv_download_link_work: /assets/cv/david-luna-cv.pdf
 
 # TIMELINE Education SECTION
 # show_timeline_card:
@@ -78,9 +76,12 @@ timeline_title_work: Work Experience
 show_timeline_card_education: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title_education: Education & Certificates
-# cv_download_link: The link where you host your cv.
-# > e.g. you share your cv on your dropbox, then add the dropbox link here
-# cv_download_link_education: https://example.com/
+# cv_download_link_education: link to your CV (PDF). The "curriculum vitae" link under the
+# section title only appears when this is set.
+# > No CV is published yet. To enable it, add the PDF to the repo, e.g.
+# >   assets/cv/david-luna-cv.pdf
+# > and uncomment the line below pointing to it (or to any public URL):
+# cv_download_link_education: /assets/cv/david-luna-cv.pdf
 
 
 
@@ -110,12 +111,12 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Feel free to contact with me in any of my social media.
+contact_description: Feel free to contact me through any of my social networks.
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: Shevanio/Shevanio.github.io
+repository: Shevanio/shevanio.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
@@ -146,13 +147,24 @@ google-analytics:
 plugins:
   - "jekyll-github-metadata"
 
+# Files and folders that must NOT be published.
+# Note: defining `exclude` replaces Jekyll's defaults, so they are listed here too
+# (Gemfile, Gemfile.lock, node_modules, vendor/...).
 exclude:
-  [
-    "_assets",
-    "Gemfile",
-    "Gemfile.lock",
-    "gulpfile.js",
-    "node_modules",
-    "package.json",
-    "vendor",
-  ]
+  - _assets
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - CLAUDE.md
+  - README.md
+  - docs
+  - _config_dev.yml

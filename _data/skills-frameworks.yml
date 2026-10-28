@@ -14,7 +14,7 @@
  - name: React
    weight: 3
 
- - name: Node
+ - name: Node.js
    weight: 2
 
 # - name: Flutter

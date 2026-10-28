@@ -20,6 +20,9 @@
 - name: Bash
   weight: 5
 
+- name: Go
+  weight: 3
+
 # - name: CSS3
 #   weight: 3
 
