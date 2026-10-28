@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync');
 var sass = require('gulp-sass')(require('sass'));
-var cssnano = require('gulp-cssnano');
-var prefix = require('gulp-autoprefixer');
+var postcss = require('gulp-postcss');
+var autoprefixer = require('autoprefixer');
+var cssnano = require('cssnano');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
@@ -20,9 +21,13 @@ function styles() {
         onError: browserSync.notify
       })
     )
-    .pipe(prefix(['last 3 versions', '> 1%']))
     .pipe(rename('main.min.css'))
-    .pipe(cssnano())
+    .pipe(
+      postcss([
+        autoprefixer({ overrideBrowserslist: ['last 3 versions', '> 1%'] }),
+        cssnano()
+      ])
+    )
     .pipe(gulp.dest('_site/assets/css/'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(gulp.dest('assets/css'));
@@ -32,7 +37,7 @@ function stylesVendors() {
   return gulp
     .src(['_sass/vendors/*.css'])
     .pipe(concat('vendors.min.css'))
-    .pipe(cssnano())
+    .pipe(postcss([cssnano()]))
     .pipe(gulp.dest('_site/assets/css/'))
     .pipe(gulp.dest('assets/css'));
 }
