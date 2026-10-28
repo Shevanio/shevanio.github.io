@@ -6,3 +6,7 @@ node_modules
 .env
 .prettierignore
 .jekyll-metadata
+
+# Ruby/Bundler local install (GitHub Pages builds with its own environment)
+vendor/bundle/
+.bundle/
