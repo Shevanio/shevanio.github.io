@@ -141,13 +141,24 @@ google-analytics:
 plugins:
   - "jekyll-github-metadata"
 
+# Files and folders that must NOT be published.
+# Note: defining `exclude` replaces Jekyll's defaults, so they are listed here too
+# (Gemfile, Gemfile.lock, node_modules, vendor/...).
 exclude:
-  [
-    "_assets",
-    "Gemfile",
-    "Gemfile.lock",
-    "gulpfile.js",
-    "node_modules",
-    "package.json",
-    "vendor",
-  ]
+  - _assets
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - CLAUDE.md
+  - README.md
+  - docs
+  - _config_dev.yml
