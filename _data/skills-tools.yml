@@ -1,3 +1,9 @@
+- name: AI Agents
+  weight: 4
+
+- name: LLMs
+  weight: 4
+
 - name: Git
   weight: 5
 
@@ -13,7 +19,7 @@
 - name: Grafana
   weight: 5
 
-- name: Influx
+- name: InfluxDB
   weight: 4
 
 - name: Prometheus
@@ -39,8 +45,11 @@
 - name: VS Code
   weight: 5
 
+- name: Docker
+  weight: 4
+
 - name: Kubernetes
   weight: 4
 
-# - name: Postman
-#   weight: 5
+- name: Postman
+  weight: 3
