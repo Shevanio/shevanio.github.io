@@ -62,9 +62,12 @@ skills_title: Skills
 show_timeline_card_work: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title_work: Work Experience
-# cv_download_link: The link where you host your cv.
-# > e.g. you share your cv on your dropbox, then add the dropbox link here
-# cv_download_link_work: https://example.com/
+# cv_download_link_work: link to your CV (PDF). The "curriculum vitae" link under the
+# section title only appears when this is set.
+# > No CV is published yet. To enable it, add the PDF to the repo, e.g.
+# >   assets/cv/david-luna-cv.pdf
+# > and uncomment the line below pointing to it (or to any public URL):
+# cv_download_link_work: /assets/cv/david-luna-cv.pdf
 
 # TIMELINE Education SECTION
 # show_timeline_card:
@@ -73,9 +76,12 @@ timeline_title_work: Work Experience
 show_timeline_card_education: true
 # timeline_title: The will be displayed as the title in the Timeline section
 timeline_title_education: Education & Certificates
-# cv_download_link: The link where you host your cv.
-# > e.g. you share your cv on your dropbox, then add the dropbox link here
-# cv_download_link_education: https://example.com/
+# cv_download_link_education: link to your CV (PDF). The "curriculum vitae" link under the
+# section title only appears when this is set.
+# > No CV is published yet. To enable it, add the PDF to the repo, e.g.
+# >   assets/cv/david-luna-cv.pdf
+# > and uncomment the line below pointing to it (or to any public URL):
+# cv_download_link_education: /assets/cv/david-luna-cv.pdf
 
 
 
